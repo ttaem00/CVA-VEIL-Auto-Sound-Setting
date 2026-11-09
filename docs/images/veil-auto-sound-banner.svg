@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 338" width="1200" height="338" role="img" aria-labelledby="title desc">
+  <title id="title">VEIL Auto Sound Setting</title>
+  <desc id="desc">생방송과 녹화에 담을 소리를 따로 고르는 OBS 플러그인.</desc>
+  <defs>
+    <linearGradient id="hero" x1="0" x2="1" y1="0" y2="1" gradientUnits="objectBoundingBox">
+      <stop stop-color="#121d2b"/>
+      <stop offset="1" stop-color="#213043"/>
+    </linearGradient>
+    <linearGradient id="gold" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#9f784b"/>
+      <stop offset="1" stop-color="#f4be70"/>
+    </linearGradient>
+    <linearGradient id="mint" x1="0" x2="1" y1="0" y2="0">
+      <stop stop-color="#477672"/>
+      <stop offset="1" stop-color="#9ce5d3"/>
+    </linearGradient>
+    <pattern id="ticks" width="36" height="36" patternUnits="userSpaceOnUse">
+      <path d="M0 36V0H36" fill="none" stroke="#a5bbcf" stroke-opacity=".09"/>
+    </pattern>
+    <clipPath id="bounds"><rect width="1200" height="338" rx="26"/></clipPath>
+  </defs>
+  <g clip-path="url(#bounds)">
+    <rect width="1200" height="338" fill="url(#hero)"/>
+    <rect x="695" width="505" height="338" fill="url(#ticks)"/>
+    <g fill="none" stroke="#a5bbcf" stroke-opacity=".14">
+      <path d="M746 88H1122M746 140H1122M746 192H1122M746 244H1122"/>
+      <path d="M746 72V262M1122 72V262"/>
+    </g>
+    <g fill="none" stroke-width="4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M746 145H780L793 131L807 172L828 105L848 160L861 145H892C930 145 929 98 973 98H996L1009 87L1024 113L1042 72L1057 102L1068 98H1122" stroke="url(#gold)"/>
+      <path d="M746 206H785L796 197L810 220L830 181L849 212L861 206H892C929 206 929 248 973 248H995L1007 242L1020 260L1035 223L1054 253L1065 248H1122" stroke="url(#mint)"/>
+    </g>
+    <circle cx="1122" cy="98" r="5" fill="#f4be70"/>
+    <circle cx="1122" cy="248" r="5" fill="#9ce5d3"/>
+    <svg x="64" y="52" width="48" height="48" viewBox="0 0 64 64" aria-hidden="true"><title>VEIL Auto Sound Setting</title><rect width="64" height="64" rx="16" fill="#182635"/><defs><mask id="veil-auto-sound-setting-color-space" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64" style="mask-type:luminance"><rect width="64" height="64" fill="#fff"/><circle cx="49.5" cy="49.5" r="12.5" fill="#000"/></mask><mask id="veil-auto-sound-setting-color-cue" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="64" style="mask-type:luminance"><rect width="64" height="64" fill="#fff"/><path d="M44.3 49v4m5.2-9v12m5.2-10v8" fill="none" stroke="#000" stroke-width="2.5" stroke-linecap="round"/></mask></defs><g mask="url(#veil-auto-sound-setting-color-space)"><path d="M12.5 14H23L32 39.2L41 14H51.5L37.2 49.4A5.6 5.6 0 0 1 26.8 49.4Z" fill="#F4BE70"/></g><circle cx="49.5" cy="49.5" r="10.5" fill="#F4BE70" mask="url(#veil-auto-sound-setting-color-cue)"/></svg>
+    <g font-family="Inter, 'Noto Sans KR', 'Malgun Gothic', 'Apple SD Gothic Neo', system-ui, sans-serif">
+      <text x="132" y="87" fill="#f4be70" font-size="20" font-weight="700" letter-spacing="4">CVA · VEIL</text>
+      <text x="61" y="171" fill="#f6f0e7" font-size="58" font-weight="750" letter-spacing="-1.8">Auto Sound Setting</text>
+      <text x="64" y="222" fill="#d9e3ef" font-size="30" font-weight="550">생방송과 녹화에 담을 소리를 따로.</text>
+      <text x="64" y="277" fill="#bdcbd9" font-size="21" font-weight="550">OBS 플러그인 · Windows 64비트</text>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="1199" height="337" rx="26" fill="none" stroke="#9db0c3" stroke-opacity=".24"/>
+</svg>

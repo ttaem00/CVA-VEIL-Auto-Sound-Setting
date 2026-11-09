@@ -1,3 +1,5 @@
+![VEIL Auto Sound Setting — 생방송과 녹화에 담을 소리를 따로 고르는 OBS 플러그인](docs/images/veil-auto-sound-banner.svg)
+
 # VEIL Auto Sound Setting
 
 **OBS에서 생방송과 PC 녹화에 담을 소리를 따로 고르세요.**
@@ -14,9 +16,13 @@ Windows 64비트 · **OBS Studio 33.0.1**에서 확인했습니다. 설치하기
 2. **소리 고르기** — OBS를 다시 열고 **독 → CVA-VEIL-Auto Sound Setting → 채널 설정**으로 들어갑니다. 사용할 마이크·게임·음악을 연결하고 **다음**을 누릅니다. 각 소리를 **생방송**과 **녹화 영상** 중 어디에 담을지 체크합니다.
 3. **확인하고 적용하기** — **바뀔 내용 보기 → 이 설정 적용**을 누릅니다. 짧게 녹화한 뒤 원하는 소리만 들어갔는지 확인하세요.
 
-## 목소리가 묻힐 때
+## 실제 화면: 30초 소리 검사
 
-**사용할 소리를 평소 크기로 준비했어요**를 체크하고 **소리 검사 시작**을 누르세요. 평소처럼 25초 말한 뒤 5초간 조용히 기다리세요. 결과에서 목소리·게임·음악의 권장 음량 조정을 볼 수 있습니다. **추천 설정 적용**을 눌러야 음량이 바뀝니다.
+검사가 끝나면 목소리·게임·음악의 조정 권장 사항을 볼 수 있습니다. 적용하기 전에 먼저 결과를 확인하세요.
+
+![Auto Sound Setting 검사 결과 화면. 내 목소리는 조금 키우고 게임은 그대로 두라는 안내와 추천 설정 적용 버튼이 보입니다.](docs/images/veil-auto-sound-level-check.png)
+
+**사용할 소리를 평소 크기로 준비했어요**를 체크하고 **소리 검사 시작**을 누르세요. 평소처럼 25초 말한 뒤 5초간 조용히 기다리세요. **추천 설정 적용**을 눌러야 음량이 바뀝니다.
 
 ## 설치 전에 알아둘 점
 
@@ -24,7 +30,7 @@ Windows 64비트 · **OBS Studio 33.0.1**에서 확인했습니다. 설치하기
 - 기존 **Loudness Balance Monitor**가 설치되어 있으면 이 버전이 그 자리에 설치됩니다. 설치 창의 **설치 위치와 세부 정보**에서 이전 파일의 백업 위치를 확인할 수 있습니다.
 - 한 입력에 이미 섞인 소리는 나눌 수 없습니다. **녹화 영상** 설정은 PC에 저장하는 녹화에 적용되며, 방송 사이트의 다시보기 설정은 별도입니다.
 
-[자세한 사용법](docs/TRUEITEM-사용안내.md) · [문제 신고](https://github.com/ttaem00/CVA-VEIL-Auto-Sound-Setting/issues/new)
+[자세한 사용법](docs/TRUEITEM-사용안내.md) · [VEIL 제품 소개](https://ttaem.com/brand/products#veil-auto-sound-setting) · [문제 신고](https://github.com/ttaem00/CVA-VEIL-Auto-Sound-Setting/issues/new)
 
 ## 소스와 라이선스
 
