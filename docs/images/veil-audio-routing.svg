@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="416" viewBox="0 0 960 416" role="img" aria-labelledby="title desc">
+  <title id="title">생방송과 PC 녹화에 담는 소리 설정 예시</title>
+  <desc id="desc">생방송에는 목소리, 게임, 음악을 포함합니다. PC 녹화에는 목소리와 게임을 포함하고 음악은 제외합니다.</desc>
+  <rect width="960" height="416" rx="28" fill="#131e2e"/>
+  <path d="M28 1h904a27 27 0 0 1 27 27v360a27 27 0 0 1-27 27H28a27 27 0 0 1-27-27V28A27 27 0 0 1 28 1Z" fill="none" stroke="#3d5269" stroke-width="2"/>
+  <g font-family="Malgun Gothic, Apple SD Gothic Neo, Noto Sans CJK KR, sans-serif">
+    <text x="48" y="60" font-size="23" font-weight="700" fill="#edbb75">VEIL / 설정 예시</text>
+    <text x="48" y="123" font-size="41" font-weight="700" fill="#fbf4e7">생방송과 PC 녹화, 소리는 따로</text>
+    <path d="M48 153h864" stroke="#3d5269" stroke-width="2"/>
+    <rect x="48" y="183" width="416" height="185" rx="18" fill="#203043" stroke="#536b83"/>
+    <rect x="496" y="183" width="416" height="185" rx="18" fill="#203043" stroke="#536b83"/>
+    <circle cx="90" cy="234" r="12" fill="#edbb75"/>
+    <path d="M535 224h27v20h-27z M543 249h11" fill="none" stroke="#edbb75" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="116" y="247" font-size="36" font-weight="700" fill="#fbf4e7">생방송</text>
+    <text x="577" y="247" font-size="36" font-weight="700" fill="#fbf4e7">PC 녹화</text>
+    <text x="77" y="311" font-size="30" font-weight="700" fill="#fbf4e7">목소리 · 게임 · 음악</text>
+    <text x="525" y="311" font-size="30" font-weight="700" fill="#fbf4e7">목소리 · 게임</text>
+    <text x="525" y="344" font-size="23" fill="#c5d3e1">이 예시에서는 음악 제외</text>
+  </g>
+</svg>
