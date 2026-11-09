@@ -1,0 +1,918 @@
+{
+  "안전한 범위의 제안을 확인하세요.": {
+    "en-US": "Review the suggested settings.",
+    "ja-JP": "提案された設定を確認してください。"
+  },
+  "현재 참고 범위입니다. 음량을 바꿀 필요가 없습니다.": {
+    "en-US": "This is within the reference range. No volume change is needed.",
+    "ja-JP": "目安の範囲内です。音量の変更は不要です。"
+  },
+  "입력이 없는 소스가 있습니다. 소스 선택과 재생 상태를 확인하세요.": {
+    "en-US": "An input has no sound. Check its connection and playback.",
+    "ja-JP": "音が届いていない入力があります。接続と再生を確認してください。"
+  },
+  "유효한 말소리가 5초보다 짧습니다. 평소 목소리로 다시 확인하세요.": {
+    "en-US": "We heard less than 5 seconds of speech. Try again with your usual voice.",
+    "ja-JP": "確認できた声が5秒未満です。普段の声でもう一度お試しください。"
+  },
+  "목소리가 너무 작아 자동 증폭을 보류했습니다. 거리와 입력을 확인하세요.": {
+    "en-US": "Your voice is too quiet to raise safely. Check the microphone distance and input.",
+    "ja-JP": "声が小さすぎるため、自動調整を見送りました。マイクとの距離と入力を確認してください。"
+  },
+  "말소리와 방 잡음의 차이가 작습니다. 게인보다 마이크 거리·잡음을 먼저 확인하세요.": {
+    "en-US": "Room noise is close to your voice level. Check microphone distance and room noise first.",
+    "ja-JP": "声と部屋の音の差が小さくなっています。先にマイクとの距離と周囲の音を確認してください。"
+  },
+  "정숙 구간 근거가 부족해 목소리 증폭을 보류했습니다.": {
+    "en-US": "We need a quiet sample before raising your voice level.",
+    "ja-JP": "声を大きくする前に、静かな時間の確認が必要です。"
+  },
+  "실제 출력 피크 근거가 부족해 목소리 증폭을 보류했습니다.": {
+    "en-US": "We could not check output headroom, so your voice level was not raised.",
+    "ja-JP": "出力の余裕を確認できないため、声の音量を上げませんでした。"
+  },
+  "이미 배경음 목표보다 작습니다. 자동으로 키우지 않습니다.": {
+    "en-US": "The background is already below the reference level. It will not be raised automatically.",
+    "ja-JP": "背景音はすでに目安より小さいため、自動では上げません。"
+  },
+  "작은 보정 한도 안에서 제안합니다. 적용 후 다시 들어 보세요.": {
+    "en-US": "This suggestion is limited to a small change. Listen again after applying it.",
+    "ja-JP": "小さな変更の範囲で提案しています。適用後に聞き比べてください。"
+  },
+  "큰 순간 소리의 여유를 남기도록 보정량을 제한했습니다.": {
+    "en-US": "The change is limited to leave room for louder sounds.",
+    "ja-JP": "大きな音に備えて、調整量を抑えています。"
+  },
+  "큰 순간 소리가 보정 한도를 넘습니다. 자동 적용을 보류했습니다.": {
+    "en-US": "Loud moments exceed the adjustment range. Automatic changes are paused.",
+    "ja-JP": "大きな音が調整範囲を超えているため、自動適用を見送りました。"
+  },
+  "평소 게임·음악·목소리로 테스트했는지 확인해 주세요.": {
+    "en-US": "Confirm that you used your usual voice and background volume.",
+    "ja-JP": "普段の声と背景音の音量で確認したかチェックしてください。"
+  },
+  "방송·녹화 중에는 제안값을 적용하지 않습니다.": {
+    "en-US": "Suggestions cannot be applied while streaming or recording.",
+    "ja-JP": "配信・録画中は提案を適用できません。"
+  },
+  "측정 시간이 부족합니다. 30초 확인을 다시 시작하세요.": {
+    "en-US": "The check was too short. Start a new 30-second check.",
+    "ja-JP": "確認時間が足りません。30秒のチェックをやり直してください。"
+  },
+  "측정값이 충분하지 않습니다. 소리 입력을 확인하고 다시 측정하세요.": {
+    "en-US": "There is not enough information yet. Check the inputs and try again.",
+    "ja-JP": "まだ確認材料が足りません。音の入力を確認してやり直してください。"
+  },
+  "채널 설정": {
+    "en-US": "Sound setup",
+    "ja-JP": "音の設定"
+  },
+  "소리 연결 설정": {
+    "en-US": "Set up sound connections",
+    "ja-JP": "音の接続を設定"
+  },
+  "도움말": {
+    "en-US": "Help",
+    "ja-JP": "ヘルプ"
+  },
+  "소리 검사 도움말": {
+    "en-US": "Sound check help",
+    "ja-JP": "音チェックのヘルプ"
+  },
+  "표시 언어": {
+    "en-US": "Display language",
+    "ja-JP": "表示言語"
+  },
+  "지금 들어오는 소리": {
+    "en-US": "Sound coming in",
+    "ja-JP": "いま届いている音"
+  },
+  "내 목소리": {
+    "en-US": "My voice",
+    "ja-JP": "自分の声"
+  },
+  "게임": {
+    "en-US": "Game",
+    "ja-JP": "ゲーム"
+  },
+  "음악": {
+    "en-US": "Music",
+    "ja-JP": "音楽"
+  },
+  "목소리": {
+    "en-US": "Voice",
+    "ja-JP": "声"
+  },
+  "말해 보세요": {
+    "en-US": "Try speaking",
+    "ja-JP": "話してみてください"
+  },
+  "재생 대기": {
+    "en-US": "Waiting for playback",
+    "ja-JP": "再生待ち"
+  },
+  " 입력 크기": {
+    "en-US": " input level",
+    "ja-JP": "の入力音量"
+  },
+  "들어오는 소리의 크기를 보여 줍니다. 음량 조절 버튼은 아닙니다.": {
+    "en-US": "Shows the incoming sound level. This is not a volume control.",
+    "ja-JP": "届いている音の大きさを表示します。音量調整の操作ではありません。"
+  },
+  "30초 소리 검사": {
+    "en-US": "30-second sound check",
+    "ja-JP": "30秒の音チェック"
+  },
+  "목소리가 잘 들리는 균형": {
+    "en-US": "Make your voice easy to hear",
+    "ja-JP": "声が聞き取りやすいバランスに"
+  },
+  "사용할 소리를 켜고 시작하세요.": {
+    "en-US": "Play the sounds you plan to use, then start.",
+    "ja-JP": "使う音を再生してから始めてください。"
+  },
+  "소리 검사 진행": {
+    "en-US": "Sound check progress",
+    "ja-JP": "音チェックの進行状況"
+  },
+  "확인 전": {
+    "en-US": "Not checked",
+    "ja-JP": "確認前"
+  },
+  "사용할 소리를 평소 크기로 준비했어요": {
+    "en-US": "My usual sounds and volume are ready",
+    "ja-JP": "使う音を普段の音量で用意しました"
+  },
+  "소리 검사 시작": {
+    "en-US": "Start sound check",
+    "ja-JP": "音チェックを始める"
+  },
+  "25초 동안 말한 뒤, 화면 안내에 따라 마지막 5초는 조용히 있어 주세요. 음성 파일은 저장하지 않습니다.": {
+    "en-US": "Speak for 25 seconds, then stay quiet for the last 5 seconds when prompted. No voice file is saved.",
+    "ja-JP": "25秒話した後、案内に合わせて最後の5秒は静かにしてください。音声ファイルは保存しません。"
+  },
+  "검사 취소": {
+    "en-US": "Cancel check",
+    "ja-JP": "チェックを中止"
+  },
+  "추천 설정 적용": {
+    "en-US": "Apply suggestions",
+    "ja-JP": "提案を適用"
+  },
+  "방송·녹화 연결 확인 중": {
+    "en-US": "Checking stream and recording",
+    "ja-JP": "配信と録画の接続を確認中"
+  },
+  "세부 정보": {
+    "en-US": "Details",
+    "ja-JP": "詳細"
+  },
+  "측정 수치와 조절 기준 보기": {
+    "en-US": "View measurements and reference settings",
+    "ja-JP": "測定値と調整の目安を見る"
+  },
+  "저장": {
+    "en-US": "Save",
+    "ja-JP": "保存"
+  },
+  "측정 결과와 현재 설정 저장": {
+    "en-US": "Save the check and current settings",
+    "ja-JP": "確認結果と現在の設定を保存"
+  },
+  "측정 수치와 현재 설정을 저장합니다. 소리를 녹음하지 않습니다.": {
+    "en-US": "Saves measurements and current settings, not an audio recording.",
+    "ja-JP": "測定値と現在の設定を保存します。音声は録音しません。"
+  },
+  "되돌리기": {
+    "en-US": "Undo",
+    "ja-JP": "元に戻す"
+  },
+  "직전 보정 전 음량으로 되돌리기": {
+    "en-US": "Restore volume from before the last adjustment",
+    "ja-JP": "直前の調整前の音量に戻す"
+  },
+  "이 도우미가 마지막으로 보정하기 전의 음량으로 돌아갑니다.": {
+    "en-US": "Restores the volume from before this assistant's last adjustment.",
+    "ja-JP": "このツールで最後に調整する前の音量に戻します。"
+  },
+  "세부 정보 · CVA-VEIL-Auto Sound Setting": {
+    "en-US": "Details · CVA-VEIL-Auto Sound Setting",
+    "ja-JP": "詳細 · CVA-VEIL-Auto Sound Setting"
+  },
+  "확인 중": {
+    "en-US": "Checking",
+    "ja-JP": "確認中"
+  },
+  "검사 전": {
+    "en-US": "Before check",
+    "ja-JP": "チェック前"
+  },
+  "LUFS-S는 최근 3초, LUFS-I는 검사 전체의 평균적인 크기입니다. 피크는 가장 큰 순간의 샘플 값이며, True Peak는 측정하지 않습니다.": {
+    "en-US": "LUFS-S describes the last 3 seconds; LUFS-I covers the whole check. Peak is the highest sample level. True Peak is not measured.",
+    "ja-JP": "LUFS-Sは直近3秒、LUFS-Iはチェック全体の平均的な大きさです。ピークは最大のサンプル値です。True Peakは測定しません。"
+  },
+  "측정 수치": {
+    "en-US": "Measurements",
+    "ja-JP": "測定値"
+  },
+  "방송을 듣는 앱": {
+    "en-US": "App used to listen to the stream",
+    "ja-JP": "配信を聞くアプリ"
+  },
+  " 연결 소스": {
+    "en-US": " sound connection",
+    "ja-JP": "の接続先"
+  },
+  "연결 다시 확인": {
+    "en-US": "Refresh connections",
+    "ja-JP": "接続を再確認"
+  },
+  "연결 설정": {
+    "en-US": "Connections",
+    "ja-JP": "接続設定"
+  },
+  "목소리 참고 크기": {
+    "en-US": "Voice reference level",
+    "ja-JP": "声の大きさの目安"
+  },
+  "게임을 목소리보다 작게": {
+    "en-US": "Game below voice",
+    "ja-JP": "ゲームを声より小さく"
+  },
+  "음악을 목소리보다 작게": {
+    "en-US": "Music below voice",
+    "ja-JP": "音楽を声より小さく"
+  },
+  "개인 참고값입니다. 방송 플랫폼의 공식 규격이 아닙니다. 보정은 목소리 최대 ±3dB, 배경음 최대 6dB 감쇠로 제한합니다. 배경음은 자동 증폭하지 않습니다.": {
+    "en-US": "These are personal reference values, not platform rules. Voice changes are limited to ±3dB; background reductions to 6dB. Backgrounds are never raised automatically.",
+    "ja-JP": "個人用の目安であり、配信サイトの公式基準ではありません。声は最大±3dB、背景音は最大6dB下げる範囲で調整します。背景音を自動で上げることはありません。"
+  },
+  "조절 기준": {
+    "en-US": "Reference settings",
+    "ja-JP": "調整の目安"
+  },
+  "닫기": {
+    "en-US": "Close",
+    "ja-JP": "閉じる"
+  },
+  "도움말 · CVA-VEIL-Auto Sound Setting": {
+    "en-US": "Help · CVA-VEIL-Auto Sound Setting",
+    "ja-JP": "ヘルプ · CVA-VEIL-Auto Sound Setting"
+  },
+  "1. 사용할 소리를 평소 크기로 재생하세요.\n2. 검사를 시작하고 25초 동안 평소처럼 말하세요.\n3. ‘말을 멈춰 주세요’가 나오면 5초 동안 조용히 기다리세요.\n4. 추천을 확인하고 적용한 뒤, 녹화나 방송으로 들어 보세요.": {
+    "en-US": "1. Play the sounds you use at their usual volume.\n2. Start the check and speak normally for 25 seconds.\n3. When asked to stop speaking, stay quiet for 5 seconds.\n4. Review and apply suggestions, then listen to a recording or stream.",
+    "ja-JP": "1. 使う音を普段の音量で再生します。\n2. チェックを始め、25秒間普段どおりに話します。\n3. 話を止める案内が出たら、5秒間静かに待ちます。\n4. 提案を確認して適用し、録画や配信で聞き比べます。"
+  },
+  "검사만으로 음량은 바뀌지 않아요. 적용하기 전에 되돌릴 음량을 저장해요. 방송·녹화·OBS의 다시보기 임시 저장이 켜져 있으면 적용하지 않아요.": {
+    "en-US": "Checking alone does not change volume. Before applying, we save the previous levels for Undo. Changes are locked while streaming, recording, or Replay Buffer is running.",
+    "ja-JP": "チェックだけでは音量は変わりません。適用前に元の音量を保存します。配信・録画・リプレイバッファの実行中は適用しません。"
+  },
+  "게임과 음악은 사용하지 않아도 검사할 수 있어요. 소리 막대는 입력이 들어오는지 보여 줍니다. ‘들어오는 중’은 음량이 최적이라는 뜻이 아니에요. 방 잡음이나 소리가 없는 구간을 따라 음량을 키우지 않아요. 수치와 연결, 조절 기준은 ‘세부 정보’에서 볼 수 있어요.": {
+    "en-US": "Game and music are optional. The bars show incoming sound, not a perfect volume rating. The assistant does not raise levels to follow noise or silence. Measurements, connections, and reference settings are in Details.",
+    "ja-JP": "ゲームや音楽は使わなくてもチェックできます。バーは音の入力を示すもので、最適な音量の判定ではありません。雑音や無音に合わせて音量を上げることはありません。測定値・接続・目安は「詳細」で確認できます。"
+  },
+  "음악을 녹화에서 뺄 수 있는지는 OBS 연결을 확인해요. 게임 자체의 음악이나 하드웨어에서 이미 섞인 소리는 따로 분리하지 못해요. 검사 수치는 참고용이고 최종 소리는 직접 들어 확인하세요.": {
+    "en-US": "Recording exclusions depend on OBS routing. Music inside a game or sounds already mixed by hardware cannot be separated here. Measurements are a guide; listen to the final result.",
+    "ja-JP": "録画から除外できるかはOBSの接続で確認します。ゲーム内の音楽や機器ですでに混ざった音は分けられません。測定値は目安です。最後は実際に聞いて確認してください。"
+  },
+  "다시 검사": {
+    "en-US": "Check again",
+    "ja-JP": "もう一度チェック"
+  },
+  "OBS의 다시보기 임시 저장을 멈춘 뒤 검사할 수 있어요.": {
+    "en-US": "Stop Replay Buffer before starting the check.",
+    "ja-JP": "リプレイバッファを停止してからチェックできます。"
+  },
+  "방송·녹화를 끝낸 뒤 검사할 수 있어요.": {
+    "en-US": "Finish streaming and recording before checking.",
+    "ja-JP": "配信・録画を終了してからチェックできます。"
+  },
+  "소스와 경로를 갱신했습니다. 다시 측정하면 제안값을 확인할 수 있습니다.": {
+    "en-US": "Connections were refreshed. Check again for new suggestions.",
+    "ja-JP": "接続を更新しました。もう一度チェックすると提案を確認できます。"
+  },
+  "선택 없음": {
+    "en-US": "None selected",
+    "ja-JP": "選択なし"
+  },
+  "방송 트랙 %1 · 녹화 메인 트랙 %2 (각 트랙의 실제 스테레오 출력)": {
+    "en-US": "Stream track %1 · Main recording track %2 (actual stereo output)",
+    "ja-JP": "配信トラック%1 · 録画メイントラック%2（実際のステレオ出力）"
+  },
+  "미확인": {
+    "en-US": "Not confirmed",
+    "ja-JP": "未確認"
+  },
+  "녹화 소리를 나눌 준비가 필요해요. 채널 설정에서 확인해 주세요.": {
+    "en-US": "Recording needs preparation. Check Sound setup.",
+    "ja-JP": "録画の音を分ける準備が必要です。「音の設定」で確認してください。"
+  },
+  "내 목소리를 연결해 주세요.": {
+    "en-US": "Connect your voice first.",
+    "ja-JP": "先に自分の声を接続してください。"
+  },
+  "선택한 소리가 없어졌어요. 채널 설정에서 다시 골라 주세요.": {
+    "en-US": "A selected sound is missing. Choose it again in Sound setup.",
+    "ja-JP": "選んだ音が見つかりません。「音の設定」で選び直してください。"
+  },
+  "%1: 음소거되어 있어요.": {
+    "en-US": "%1: muted.",
+    "ja-JP": "%1：ミュート中です。"
+  },
+  "역할마다 서로 다른 소리를 골라 주세요.": {
+    "en-US": "Choose a different input for each role.",
+    "ja-JP": "役割ごとに別の入力を選んでください。"
+  },
+  "방송을 듣는 앱이 출력에 들어가 있어요. 같은 소리가 반복될 수 있어요.": {
+    "en-US": "The stream-listening app is included in output. This can repeat the same sound.",
+    "ja-JP": "配信を聞くアプリが出力に入っています。同じ音が繰り返されることがあります。"
+  },
+  "현재 선택한 소리 배정을 확인했어요.": {
+    "en-US": "Current sound routing is confirmed.",
+    "ja-JP": "現在の音の振り分けを確認しました。"
+  },
+  "생방송: %1": {
+    "en-US": "Live stream: %1",
+    "ja-JP": "生配信：%1"
+  },
+  " · ": {
+    "en-US": " · ",
+    "ja-JP": " · "
+  },
+  "녹화 영상: %1": {
+    "en-US": "Recording: %1",
+    "ja-JP": "録画：%1"
+  },
+  "한 입력에 이미 섞인 소리는 여기서 따로 나눌 수 없어요.": {
+    "en-US": "Sounds already mixed into one input cannot be separated here.",
+    "ja-JP": "1つの入力ですでに混ざっている音は、ここでは分けられません。"
+  },
+  "채널 설정에서 소리 연결을 확인해 주세요.": {
+    "en-US": "Check connections in Sound setup.",
+    "ja-JP": "「音の設定」で接続を確認してください。"
+  },
+  "녹화 영상 · %1": {
+    "en-US": "Recording · %1",
+    "ja-JP": "録画 · %1"
+  },
+  "방송·녹화를 끝낸 뒤 소리 확인을 시작하세요. 현재 방송은 유지합니다.": {
+    "en-US": "Finish streaming and recording before checking. Your stream is not stopped automatically.",
+    "ja-JP": "配信・録画を終了してから確認してください。現在の配信を自動で止めることはありません。"
+  },
+  "사용할 소리를 평소 크기로 준비한 뒤 확인 항목을 체크해 주세요.": {
+    "en-US": "Prepare your usual sounds and volume, then tick the ready box.",
+    "ja-JP": "使う音を普段の音量で準備し、確認のチェックを入れてください。"
+  },
+  "출력 트랙을 확인하지 못했습니다.": {
+    "en-US": "The output tracks could not be confirmed.",
+    "ja-JP": "出力トラックを確認できませんでした。"
+  },
+  "선택한 소스가 음소거되었거나 현재 장면에서 활성화되지 않았습니다.": {
+    "en-US": "A selected input is muted or inactive in this scene.",
+    "ja-JP": "選んだ入力がミュート中、または現在のシーンで使われていません。"
+  },
+  "서로 다른 목소리·게임·음악 소스를 선택하세요.": {
+    "en-US": "Use separate inputs for voice, game, and music.",
+    "ja-JP": "声・ゲーム・音楽には別々の入力を選んでください。"
+  },
+  "실제 출력 연결을 시작하지 못했습니다. OBS 오디오 상태를 확인하세요.": {
+    "en-US": "Could not connect to the actual output. Check OBS audio.",
+    "ja-JP": "実際の出力に接続できませんでした。OBSの音声状態を確認してください。"
+  },
+  "평소처럼 말해 주세요": {
+    "en-US": "Speak normally",
+    "ja-JP": "普段どおりに話してください"
+  },
+  "25초": {
+    "en-US": "25s",
+    "ja-JP": "25秒"
+  },
+  "사용할 배경 소리는 계속 재생하세요.": {
+    "en-US": "Keep your chosen background sounds playing.",
+    "ja-JP": "使う背景音は再生したままにしてください。"
+  },
+  "다시 시작할 수 있어요": {
+    "en-US": "Ready to start again",
+    "ja-JP": "もう一度始められます"
+  },
+  "음량은 바꾸지 않았어요.": {
+    "en-US": "Volume was not changed.",
+    "ja-JP": "音量は変更していません。"
+  },
+  "방송 실제 출력": {
+    "en-US": "Actual stream output",
+    "ja-JP": "実際の配信出力"
+  },
+  "녹화 메인 실제 출력": {
+    "en-US": "Actual main recording output",
+    "ja-JP": "実際の録画メイン出力"
+  },
+  "30초 확인에서 측정합니다": {
+    "en-US": "Measured during the 30-second check",
+    "ja-JP": "30秒のチェック中に測定します"
+  },
+  "소스/출력 연결 대기": {
+    "en-US": "Waiting for input/output connection",
+    "ja-JP": "入力・出力への接続待ち"
+  },
+  "말소리 대기 · ": {
+    "en-US": "Waiting for speech · ",
+    "ja-JP": "声を待っています · "
+  },
+  "신호 대기 · ": {
+    "en-US": "Waiting for sound · ",
+    "ja-JP": "音を待っています · "
+  },
+  "검사 중 유효한 소리가 없었습니다": {
+    "en-US": "No usable sound was found during the check",
+    "ja-JP": "チェック中に有効な音を確認できませんでした"
+  },
+  "측정 준비 중 (3초)": {
+    "en-US": "Preparing measurement (3 seconds)",
+    "ja-JP": "測定の準備中（3秒）"
+  },
+  " · 피크 ": {
+    "en-US": " · peak ",
+    "ja-JP": " · ピーク "
+  },
+  " · 참고 목표 근처": {
+    "en-US": " · near reference level",
+    "ja-JP": " · 目安の付近"
+  },
+  " · 참고 목표보다 %1dB %2": {
+    "en-US": " · %1dB %2 reference",
+    "ja-JP": " · 目安より%1dB %2"
+  },
+  "작음": {
+    "en-US": "below",
+    "ja-JP": "小さい"
+  },
+  "큼": {
+    "en-US": "above",
+    "ja-JP": "大きい"
+  },
+  " · 목소리와 %1LU 차이": {
+    "en-US": " · %1LU from voice",
+    "ja-JP": " · 声との差%1LU"
+  },
+  " · 대화 중 배경음 크기 확인": {
+    "en-US": " · check background during speech",
+    "ja-JP": " · 会話中の背景音を確認"
+  },
+  " · 큰 순간 소리 여유가 작음": {
+    "en-US": " · little headroom for loud moments",
+    "ja-JP": " · 大きな音への余裕が少ない"
+  },
+  " · 최근 검사 전체": {
+    "en-US": " · latest full check",
+    "ja-JP": " · 直近のチェック全体"
+  },
+  "사용 안 함": {
+    "en-US": "Not used",
+    "ja-JP": "使用しない"
+  },
+  "연결 필요": {
+    "en-US": "Connection needed",
+    "ja-JP": "接続が必要"
+  },
+  "소리가 커요": {
+    "en-US": "Sound is loud",
+    "ja-JP": "音が大きいです"
+  },
+  "들어오는 중": {
+    "en-US": "Receiving sound",
+    "ja-JP": "音が届いています"
+  },
+  "출력이나 소스 설정이 바뀌어 측정을 중단했습니다. 현재 값을 유지했습니다.": {
+    "en-US": "The check stopped because outputs or inputs changed. Current values were kept.",
+    "ja-JP": "出力または入力の設定が変わったため、チェックを止めました。現在の値は維持しています。"
+  },
+  "%1초": {
+    "en-US": "%1s",
+    "ja-JP": "%1秒"
+  },
+  "이제 말을 멈춰 주세요": {
+    "en-US": "Stop speaking now",
+    "ja-JP": "ここで話すのを止めてください"
+  },
+  "배경 소리는 그대로 두세요.": {
+    "en-US": "Keep background sounds playing.",
+    "ja-JP": "背景音は再生したままにしてください。"
+  },
+  ": 사용 안 함": {
+    "en-US": ": not used",
+    "ja-JP": "：使用しない"
+  },
+  ": 유지 · ": {
+    "en-US": ": unchanged · ",
+    "ja-JP": "：維持 · "
+  },
+  "추가 확인": {
+    "en-US": "Check again",
+    "ja-JP": "追加確認"
+  },
+  "그대로": {
+    "en-US": "Keep as is",
+    "ja-JP": "そのまま"
+  },
+  "조금 키워요": {
+    "en-US": "Raise slightly",
+    "ja-JP": "少し上げます"
+  },
+  "조금 낮춰요": {
+    "en-US": "Lower slightly",
+    "ja-JP": "少し下げます"
+  },
+  "적용 전 음량을 저장해요. 적용한 뒤 소리를 비교하세요.": {
+    "en-US": "Previous levels are saved before applying. Compare the sound afterward.",
+    "ja-JP": "適用前の音量を保存します。適用した後に聞き比べてください。"
+  },
+  "이번 검사에서 바꿀 설정은 없어요.": {
+    "en-US": "No changes are suggested by this check.",
+    "ja-JP": "今回のチェックでは変更の提案はありません。"
+  },
+  "말하기 안내가 보이는 동안 평소 목소리로 계속 말해 주세요.": {
+    "en-US": "Keep speaking normally while the speaking prompt is shown.",
+    "ja-JP": "話す案内が出ている間は、普段の声で話し続けてください。"
+  },
+  "방 소리가 크게 잡혀요. 마이크를 조금 가까이 두고 다시 검사하세요.": {
+    "en-US": "Room sound is prominent. Move a little closer to the microphone and check again.",
+    "ja-JP": "部屋の音が大きく入っています。マイクに少し近づいて再確認してください。"
+  },
+  "게임과 음악을 재생하고, 연결 설정도 확인해 주세요.": {
+    "en-US": "Play the selected backgrounds and check their connections.",
+    "ja-JP": "使う背景音を再生し、接続も確認してください。"
+  },
+  "마지막 안내가 나오면 잠깐 조용히 있어 주세요.": {
+    "en-US": "Stay quiet when the final prompt appears.",
+    "ja-JP": "最後の案内が出たら、少しの間静かにしてください。"
+  },
+  "소리를 조금 더 확인해야 해요. 세부 정보에서 이유를 볼 수 있어요.": {
+    "en-US": "We need another check. See Details for the reason.",
+    "ja-JP": "もう少し音の確認が必要です。理由は「詳細」で確認できます。"
+  },
+  "검사 완료": {
+    "en-US": "Check complete",
+    "ja-JP": "チェック完了"
+  },
+  "바꿔 볼 설정을 찾았어요": {
+    "en-US": "Suggestions are ready",
+    "ja-JP": "試せる設定が見つかりました"
+  },
+  "지금 음량을 유지해요": {
+    "en-US": "Keep the current levels",
+    "ja-JP": "いまの音量を維持します"
+  },
+  "한 번 더 확인해 주세요": {
+    "en-US": "Please check again",
+    "ja-JP": "もう一度確認してください"
+  },
+  "측정 후 소스/음량이 바뀌었거나 적용 조건이 부족합니다. 다시 확인해 주세요.": {
+    "en-US": "Inputs or volume changed after checking, or the check is incomplete. Please check again.",
+    "ja-JP": "確認後に入力・音量が変わったか、適用条件が足りません。もう一度確認してください。"
+  },
+  "음량 범위를 확인할 수 없어 적용하지 않았습니다.": {
+    "en-US": "The volume range could not be confirmed. Nothing was applied.",
+    "ja-JP": "音量の範囲を確認できないため、適用しませんでした。"
+  },
+  "원복 정보를 저장하지 못해 적용하지 않았습니다.": {
+    "en-US": "Undo information could not be saved. Nothing was applied.",
+    "ja-JP": "元に戻す情報を保存できないため、適用しませんでした。"
+  },
+  "적용 완료": {
+    "en-US": "Applied",
+    "ja-JP": "適用完了"
+  },
+  "설정을 저장했어요": {
+    "en-US": "Settings saved",
+    "ja-JP": "設定を保存しました"
+  },
+  "마음에 들지 않으면 ‘되돌리기’를 누르세요.": {
+    "en-US": "If you prefer the previous sound, choose Undo.",
+    "ja-JP": "元の音がよければ「元に戻す」を押してください。"
+  },
+  "보정 후 다른 음량 변경이 있어 자동 원복을 중단했습니다. 현재 설정을 덮어쓰지 않았습니다.": {
+    "en-US": "Volume changed after the adjustment, so Undo was stopped. Your current settings were kept.",
+    "ja-JP": "調整後に別の音量変更があったため、元に戻す操作を止めました。現在の設定は上書きしていません。"
+  },
+  "되돌리기 완료": {
+    "en-US": "Undone",
+    "ja-JP": "元に戻しました"
+  },
+  "이전 음량으로 돌아왔어요": {
+    "en-US": "Previous levels restored",
+    "ja-JP": "以前の音量に戻りました"
+  },
+  "바뀐 소리를 다시 확인할 수 있어요.": {
+    "en-US": "You can check the sound again.",
+    "ja-JP": "音をもう一度確認できます。"
+  },
+  "측정 결과를 저장하지 못했습니다.": {
+    "en-US": "Could not save the check results.",
+    "ja-JP": "確認結果を保存できませんでした。"
+  },
+  "현재 설정을 저장했어요.": {
+    "en-US": "Current settings saved.",
+    "ja-JP": "現在の設定を保存しました。"
+  },
+  "내 목소리 입력 크기": {
+    "en-US": "My voice input level",
+    "ja-JP": "自分の声の入力音量"
+  },
+  "게임 입력 크기": {
+    "en-US": "Game input level",
+    "ja-JP": "ゲームの入力音量"
+  },
+  "음악 입력 크기": {
+    "en-US": "Music input level",
+    "ja-JP": "音楽の入力音量"
+  },
+  "내 목소리 연결 소스": {
+    "en-US": "My voice sound connection",
+    "ja-JP": "自分の声の接続先"
+  },
+  "게임 연결 소스": {
+    "en-US": "Game sound connection",
+    "ja-JP": "ゲームの接続先"
+  },
+  "음악 연결 소스": {
+    "en-US": "Music sound connection",
+    "ja-JP": "音楽の接続先"
+  },
+  "방송을 듣는 앱 연결 소스": {
+    "en-US": "App used to listen to the stream sound connection",
+    "ja-JP": "配信を聞くアプリの接続先"
+  },
+  "여타 소리를 포함한 전체 목록은 채널 설정에서 확인하세요.": {
+    "en-US": "See Sound setup for the full list, including other sounds.",
+    "ja-JP": "その他の音を含む全体の一覧は「音の設定」で確認できます。"
+  },
+  "표시 언어를 저장하지 못했어요. 다시 선택해 주세요.": {
+    "en-US": "Could not save the display language. Please choose it again.",
+    "ja-JP": "表示言語を保存できませんでした。もう一度選んでください。"
+  },
+  "%1 녹화 포함": {
+    "en-US": "Include %1 in recording",
+    "ja-JP": "%1を録画に含める"
+  },
+  "%1 생방송 포함": {
+    "en-US": "Include %1 in live stream",
+    "ja-JP": "%1を生配信に含める"
+  },
+  "OBS의 녹화 설정을 읽을 수 없어요.": {
+    "en-US": "Could not read OBS recording settings.",
+    "ja-JP": "OBSの録画設定を読み取れませんでした。"
+  },
+  "OBS의 녹화 화질을 ‘높은 화질’로 바꾸면 소리를 나눌 수 있어요.": {
+    "en-US": "In OBS, choose High Quality for recording to use separate sounds.",
+    "ja-JP": "OBSの録画画質を「高品質」にすると、音を分けられます。"
+  },
+  "같은 브라우저의 여러 탭은 함께 잡힐 수 있어요. 음악과 방송을 듣는 앱은 다르게 사용해 주세요.": {
+    "en-US": "Tabs in the same browser may be captured together. Use different apps for music and listening to your stream.",
+    "ja-JP": "同じブラウザーの複数タブはまとめて取り込まれる場合があります。音楽と配信を聞くアプリは分けてください。"
+  },
+  "같은 소리를 두 번 고를 수 없어요.": {
+    "en-US": "Each sound can have only one role.",
+    "ja-JP": "同じ音を2つの役割には選べません。"
+  },
+  "녹화 영상": {
+    "en-US": "Recording",
+    "ja-JP": "録画"
+  },
+  "녹화 영상에 담겨요": {
+    "en-US": "Included in recording",
+    "ja-JP": "録画に入る音"
+  },
+  "녹화에 넣지 않은 소리는 편집용 소리 묶음에서도 빠져요. 이미 한 입력에 섞인 소리는 따로 나눌 수 없어요.": {
+    "en-US": "Excluded sounds are removed from all selected recording tracks, including editing tracks. Sounds already mixed in one input cannot be separated.",
+    "ja-JP": "録画に含めない音は、編集用を含むすべての選択済み録画トラックから外れます。1つの入力ですでに混ざった音は分けられません。"
+  },
+  "녹화에 담을 소리를 하나 이상 골라 주세요.": {
+    "en-US": "Choose at least one sound for recording.",
+    "ja-JP": "録画に入れる音を1つ以上選んでください。"
+  },
+  "녹화에 쓸 소리 묶음이 없어요. OBS 출력 설정을 확인해 주세요.": {
+    "en-US": "No recording audio track is available. Check OBS output settings.",
+    "ja-JP": "録画に使える音声トラックがありません。OBSの出力設定を確認してください。"
+  },
+  "녹화에서 빠져요": {
+    "en-US": "Excluded from recording",
+    "ja-JP": "録画に入らない音"
+  },
+  "다음": {
+    "en-US": "Next",
+    "ja-JP": "次へ"
+  },
+  "다음 녹화부터 선택한 소리가 담겨요.": {
+    "en-US": "Your choices will be used for the next recording.",
+    "ja-JP": "次の録画から、選んだ音が入ります。"
+  },
+  "마이크 또는 오디오 장치": {
+    "en-US": "Microphone or audio device",
+    "ja-JP": "マイク・オーディオ機器"
+  },
+  "목소리 선택": {
+    "en-US": "Choose your voice input",
+    "ja-JP": "声の入力を選ぶ"
+  },
+  "목소리·게임·음악이 각각 어디서 들어오는지 골라 주세요.": {
+    "en-US": "Choose where your voice, game, and music come from.",
+    "ja-JP": "声・ゲーム・音楽がそれぞれどこから届くか選んでください。"
+  },
+  "무슨 소리인가요?": {
+    "en-US": "What kind of input?",
+    "ja-JP": "どのような入力ですか？"
+  },
+  "바뀔 내용 보기": {
+    "en-US": "Review changes",
+    "ja-JP": "変更内容を見る"
+  },
+  "바뀔 내용 확인": {
+    "en-US": "Review your changes",
+    "ja-JP": "変更内容の確認"
+  },
+  "방송 듣기": {
+    "en-US": "Stream listening",
+    "ja-JP": "配信を聞く音"
+  },
+  "방송과 녹화를 끝낸 뒤 설정할 수 있어요.": {
+    "en-US": "Finish streaming and recording before changing these settings.",
+    "ja-JP": "配信と録画を終了してから設定できます。"
+  },
+  "새 마이크": {
+    "en-US": "New microphone",
+    "ja-JP": "新しいマイク"
+  },
+  "새 소리": {
+    "en-US": "New sound",
+    "ja-JP": "新しい音"
+  },
+  "새 앱 소리": {
+    "en-US": "New app sound",
+    "ja-JP": "新しいアプリの音"
+  },
+  "생방송": {
+    "en-US": "Live stream",
+    "ja-JP": "生配信"
+  },
+  "생방송에 담겨요": {
+    "en-US": "Included in live stream",
+    "ja-JP": "生配信に入る音"
+  },
+  "생방송의 소리 연결을 확인해 주세요.": {
+    "en-US": "Check the live stream audio connection.",
+    "ja-JP": "生配信の音声接続を確認してください。"
+  },
+  "선택할 소리가 없어요. 장치를 연결하거나 앱을 연 뒤 다시 추가해 주세요.": {
+    "en-US": "No input is available. Connect a device or open the app, then try adding it again.",
+    "ja-JP": "選べる入力がありません。機器を接続するかアプリを開いて、もう一度追加してください。"
+  },
+  "설정을 마쳤어요": {
+    "en-US": "Setup complete",
+    "ja-JP": "設定が完了しました"
+  },
+  "설정을 저장할 수 없어 변경하지 않았어요.": {
+    "en-US": "Settings could not be saved. Nothing was changed.",
+    "ja-JP": "設定を保存できないため、変更しませんでした。"
+  },
+  "설정을 저장했어요. 짧게 녹화해서 소리를 확인해 보세요.": {
+    "en-US": "Settings saved. Make a short recording to check the sound.",
+    "ja-JP": "設定を保存しました。短く録画して音を確認してください。"
+  },
+  "설정이 바뀌어 되돌릴 수 없어요. 이 화면에서 다시 골라 주세요.": {
+    "en-US": "Settings changed, so they cannot be restored automatically. Choose again here.",
+    "ja-JP": "設定が変わったため、自動で元に戻せません。この画面で選び直してください。"
+  },
+  "설정이 바뀌었어요. 이 창을 닫고 다시 열어 주세요.": {
+    "en-US": "Settings changed. Close this window and open it again.",
+    "ja-JP": "設定が変わりました。この画面を閉じて、もう一度開いてください。"
+  },
+  "소리": {
+    "en-US": "Sound",
+    "ja-JP": "音"
+  },
+  "소리 목록이 바뀌었어요. 이 창을 닫고 다시 열어 주세요.": {
+    "en-US": "The sound list changed. Close this window and open it again.",
+    "ja-JP": "音の一覧が変わりました。この画面を閉じて、もう一度開いてください。"
+  },
+  "소리 연결이 바뀌어 이전 설정을 덮어쓰지 않았어요.": {
+    "en-US": "Connections changed. Your current settings were not overwritten.",
+    "ja-JP": "音の接続が変わったため、現在の設定は上書きしませんでした。"
+  },
+  "소리 연결이 바뀌었어요. 이 창을 닫고 다시 열어 주세요.": {
+    "en-US": "Sound connections changed. Close this window and open it again.",
+    "ja-JP": "音の接続が変わりました。この画面を閉じて、もう一度開いてください。"
+  },
+  "소리 연결하기": {
+    "en-US": "Connect your sounds",
+    "ja-JP": "音を接続する"
+  },
+  "소리 종류": {
+    "en-US": "Sound role",
+    "ja-JP": "音の種類"
+  },
+  "소리 추가": {
+    "en-US": "Add sound",
+    "ja-JP": "音を追加"
+  },
+  "알아보기 쉬운 이름": {
+    "en-US": "A name you will recognize",
+    "ja-JP": "わかりやすい名前"
+  },
+  "앱에서 나는 소리": {
+    "en-US": "Sound from an app",
+    "ja-JP": "アプリからの音"
+  },
+  "앱이 보이지 않으면 먼저 앱을 열고 소리를 재생해 주세요.": {
+    "en-US": "If the app is missing, open it and play some sound first.",
+    "ja-JP": "アプリが見えない場合は、先に開いて音を再生してください。"
+  },
+  "어디서 가져올까요?": {
+    "en-US": "Where does it come from?",
+    "ja-JP": "どこから取り込みますか？"
+  },
+  "어디에 담을까요?": {
+    "en-US": "Where should it be heard?",
+    "ja-JP": "どこに音を入れますか？"
+  },
+  "없음": {
+    "en-US": "None",
+    "ja-JP": "なし"
+  },
+  "여타 소리": {
+    "en-US": "Other sounds",
+    "ja-JP": "そのほかの音"
+  },
+  "여타 소리는 다음 화면에서 함께 고를 수 있어요. 이미 섞인 게임컴·장치 소리는 여기서 따로 나눌 수 없어요.": {
+    "en-US": "You can choose other sounds on the next screen. Sounds already mixed by a gaming PC or device cannot be separated here.",
+    "ja-JP": "そのほかの音は次の画面で選べます。ゲーム用PCや機器ですでに混ざった音は、ここでは分けられません。"
+  },
+  "음소거됨": {
+    "en-US": "Muted",
+    "ja-JP": "ミュート中"
+  },
+  "이 녹화 방식은 아직 지원하지 않아요. OBS에서 일반 녹화와 MKV 형식을 선택해 주세요.": {
+    "en-US": "This recording method is not supported yet. In OBS, choose Standard recording and MKV format.",
+    "ja-JP": "この録画方法にはまだ対応していません。OBSで通常の録画とMKV形式を選んでください。"
+  },
+  "이 설정 적용": {
+    "en-US": "Apply these settings",
+    "ja-JP": "この設定を適用"
+  },
+  "이 소리 사용": {
+    "en-US": "Use this sound",
+    "ja-JP": "この音を使う"
+  },
+  "이 소리를 쓰는 다른 장면에도 적용돼요. 음량과 음질 효과는 유지해요.": {
+    "en-US": "This also affects other scenes using these sounds. Volume and audio effects are kept.",
+    "ja-JP": "同じ音を使うほかのシーンにも適用されます。音量と音質の効果は維持します。"
+  },
+  "이전": {
+    "en-US": "Back",
+    "ja-JP": "戻る"
+  },
+  "이전 배정 복원": {
+    "en-US": "Restore previous routing",
+    "ja-JP": "以前の振り分けに戻す"
+  },
+  "이전 배정을 복원했어요": {
+    "en-US": "Previous routing restored",
+    "ja-JP": "以前の振り分けに戻しました"
+  },
+  "저장하지 못해 이전 설정으로 돌렸어요.": {
+    "en-US": "Saving failed. Previous settings were restored.",
+    "ja-JP": "保存できなかったため、以前の設定に戻しました。"
+  },
+  "채널 설정 · 소리 나누기": {
+    "en-US": "Sound setup · Separate your sounds",
+    "ja-JP": "音の設定 · 音を分ける"
+  },
+  "체크한 소리만 담겨요. 음악은 녹화에서 뺄 수 있어요.": {
+    "en-US": "Only checked sounds are included. You can leave music out of recordings.",
+    "ja-JP": "チェックした音だけが入ります。音楽は録画から外すことができます。"
+  },
+  "추가한 소리는 마지막에 적용하면 연결돼요.": {
+    "en-US": "The new sound will be connected when you apply at the final step.",
+    "ja-JP": "追加した音は、最後に適用すると接続されます。"
+  },
+  "추가한 입력은 보관하고, 방송·녹화 배정은 이전으로 돌렸어요.": {
+    "en-US": "Added inputs are kept. Stream and recording routing was restored.",
+    "ja-JP": "追加した入力は残し、配信・録画の振り分けを以前に戻しました。"
+  },
+  "취소": {
+    "en-US": "Cancel",
+    "ja-JP": "キャンセル"
+  },
+  "포함될 소리를 확인한 뒤 적용해 주세요.": {
+    "en-US": "Check the included sounds, then apply.",
+    "ja-JP": "入る音を確認してから適用してください。"
+  },
+  "주요 소리 · %1": {
+    "en-US": "Main sounds · %1",
+    "ja-JP": "主な音 · %1"
+  },
+  "복원을 확인하지 못했어요. 방송을 시작하기 전에 소리 연결을 다시 확인해 주세요.": {
+    "en-US": "Restoration could not be confirmed. Check sound connections before starting your stream.",
+    "ja-JP": "復元を確認できませんでした。配信を始める前に音の接続を再確認してください。"
+  }
+}
