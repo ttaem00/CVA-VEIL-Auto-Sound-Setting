@@ -10,6 +10,10 @@
 
 Windows 64비트 · **OBS Studio 33.0.1**에서 확인했습니다. 설치하기 전에 OBS 버전을 확인해 주세요.
 
+<p align="center">
+  <a href="https://ttaem.com"><img src="docs/images/cva-brand-logo.svg" width="184" alt="TTaemCVA 브랜드 홈" /></a>
+</p>
+
 ## 설치하고 첫 녹화까지
 
 1. **설치하기** — ZIP의 모든 파일을 한 폴더에 풀고 OBS를 종료한 뒤 `CVA-VEIL-Setup.exe`를 실행하고 **설치하기**를 누릅니다.
